@@ -12,7 +12,10 @@ from langchain.prompts import (
     ChatPromptTemplate,
     MessagesPlaceholder
 )
-
+headers = {
+     "authorization":st.secrets("auth_token"),
+     "content-type":"application/json"
+}
 # Define custom CSS to change the background color
 custom_css = """
 <style>
