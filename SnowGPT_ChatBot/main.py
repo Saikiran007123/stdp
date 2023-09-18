@@ -13,7 +13,7 @@ from langchain.prompts import (
     MessagesPlaceholder
 )
 headers = {
-     "authorization":st.secrets("auth_token"),
+     "authorization":st.secrets["auth_token"],
      "content-type":"application/json"
 }
 # Define custom CSS to change the background color
