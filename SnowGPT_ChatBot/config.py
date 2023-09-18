@@ -21,7 +21,7 @@ environment = "gcp-starter"
 
 index_name="snowgpt"
 
-openai_api_key="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"
+openai_api_key="auth_token"
 
 # os.environ["OPENAI_API_KEY"] = "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"
 # cursor.execute(f"LIST {stage_file_path}")
